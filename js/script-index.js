@@ -1,5 +1,10 @@
 $(document).ready( function(){
 
+  $('.hiden').toggle();
+
+
+
+
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
@@ -7,7 +12,7 @@ $(document).ready( function(){
 
 
 /*
-* Función que se encarga de pintar TODAS las recetas que tengan 
+* Función que se encarga de imprimir TODAS las recetas que tengan 
 * marcado el atributo "highlighted" como TRUE
 */
 function renderHighlightedRecipes(recipesArray) {
