@@ -19,7 +19,6 @@ function   printNews(){
 */
 function renderHighlightedRecipes(recipesArray) {
     for (var i = 0; i < recipesArray.length; i++) {
-          recipesArray[i] 
         if (recipesArray[i].highlighted ==true) {
         
          renderRecipe(recipesArray[i]); 
