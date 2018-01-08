@@ -36,7 +36,9 @@ function renderHighlightedRecipes(recipesArray) {
 * archivo "templates/templates-recipe.html"
 */
 function renderRecipe(recipe) {
-	console.log('Voy a pintar la receta: ', recipe);
+	 $(".list-recipes").append( "<h2>" + recipe.title + " </h2><p> " + recipe.name + " </p>< img src='img/recipes/320x350/'  " + recipe.name + " .jpg /> " );
+
+  console.log('Voy a pintar la receta: ', recipe);
 }
 
 
