@@ -1,7 +1,7 @@
 $(document).ready( function(){
 
   $('.hiden').toggle();
-
+  printNews();
 
 
 
@@ -10,7 +10,9 @@ $(document).ready( function(){
 
 });
 
-
+function   printNews(){
+  $(".news").text("nuevas recetas");
+}
 /*
 * Función que se encarga de imprimir TODAS las recetas que tengan 
 * marcado el atributo "highlighted" como TRUE
